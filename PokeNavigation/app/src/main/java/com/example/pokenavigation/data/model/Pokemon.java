@@ -8,10 +8,10 @@ public class Pokemon {
 
     public String getUrl() { return url; }
 
-    public void setName(String pokemonName) {
+    public void setName(String pokemonName) { this.name = pokemonName;
     }
 
-    public void setUrl(String s) {
+    public void setUrl(String s) { this.url = s;
         
     }
 }
